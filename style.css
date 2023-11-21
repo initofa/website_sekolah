@@ -1,0 +1,40 @@
+/* Gaya untuk navigasi */
+nav {
+  text-align: center;
+  background-color: #2c3e50; /* Warna latar belakang - Biru tua */
+  color: white; /* Warna teks putih */
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #e74c3c; /* Warna teks saat dihover - Merah */
+}
+
+/* Gaya untuk bagian Visi & Misi */
+#visi-misi {
+  background-color: #34495e; /* Warna latar belakang - Abu-abu tua */
+  color: white; /* Warna teks putih */
+  padding: 50px 0;
+}
+
+#visi-misi h2 {
+  margin-top: 20px;
+  color: #e74c3c; /* Warna teks judul - Merah */
+}
